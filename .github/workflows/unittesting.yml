@@ -21,6 +21,6 @@ jobs:
       - name: change directory 
         run: cd Sep_project7y7
       - name: testing maven function 
-        run: mvn test 
+        run: mvn -B verify --file pom.xml 
 
     
