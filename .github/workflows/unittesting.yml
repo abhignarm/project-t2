@@ -19,7 +19,7 @@ jobs:
         with:
           java-version: 1.8
       - name: change directory 
-        run: cd group_2/ 
+        run: cd Sep_project7y7/ 
              mvn test
 
     
