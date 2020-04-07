@@ -20,7 +20,7 @@ jobs:
           java-version: 1.8
       - name: change directory 
         run: cd Sep_project7y7
-      - name: testing maven function 
-        run: mvn clean 
+      - name: testing maven  
+        run: mvn test  
 
     
