@@ -10,7 +10,7 @@ public class Test_case {
 	public void test() {
 		Test_method test1 = new Test_method();
 		int output = test1.power4(10);
-		assertEquals(10000,output);
+		assertEquals(100,output);
 	}
 	@Test
 	 public void testAddingTwoPositiveIntegers() throws Exception {
