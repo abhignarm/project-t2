@@ -49,7 +49,7 @@ public class Test_case {
       public void test3() {
     	  Test_method test = new Test_method();
     	  int output = test.Area_rectangle(4,5);
-    	  assertEquals(20,output);
+    	  assertEquals(21,output);
     	  
     			
       }
