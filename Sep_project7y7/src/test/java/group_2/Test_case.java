@@ -10,7 +10,7 @@ public class Test_case {
 	public void test() {
 		Test_method test1 = new Test_method();
 		int output = test1.power4(10);
-		assertEquals(100,output);
+		assertEquals(10000,output);
 	}
 	@Test
 	 public void testAddingTwoPositiveIntegers() throws Exception {
@@ -35,7 +35,7 @@ public class Test_case {
 	 public void test1() {
 		 Test_method test =new Test_method();
 			int output = test.countA("javabeAn");
-			assertEquals(9,output);
+			assertEquals(3,output);
 		}
 	@Test
       public void test2() {
@@ -49,7 +49,7 @@ public class Test_case {
       public void test3() {
     	  Test_method test = new Test_method();
     	  int output = test.Area_rectangle(4,5);
-    	  assertEquals(21,output);
+    	  assertEquals(20,output);
     	  
     			
       }
@@ -57,7 +57,7 @@ public class Test_case {
       public void test4() {
     	  Test_method test = new Test_method();
     	  int output = test.fact(5);
-    	  assertEquals(20,output);
+    	  assertEquals(120,output);
       }
 
 	
