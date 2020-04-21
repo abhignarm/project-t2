@@ -11,14 +11,14 @@ public class Test_method {
           public int countA(String words) {
       		int t=0;
       		for(int i = 0;i <words.length();i++) {
-      			if(words.charAt(i)=='a' || words.charAt(i)=='A') {
+      			if(words.charAt(i)=='a' || words.charAt(i)=='B') {
       				t++;
       			}
       		}
       		return t;
 }
           public String even(int a) {
-        	  if(a%2 ==0) {
+        	  if(a%2 !=0) {
         	 return "even";}
         	 else {
         		 return "odd";
